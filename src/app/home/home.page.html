@@ -13,10 +13,10 @@
     </ion-toolbar>
   </ion-header>
   <ion-card>
-    <ion-card-header>
+    <ion-card-header style="display: flex; justify-content: center;">
       Check Live Updates Config
     </ion-card-header>
-    <ion-button (click)="fetchLiveUpdatesConfig()">Check</ion-button>
+    <ion-button (click)="fetchLiveUpdatesConfig()" style="display: flex; justify-content: center;">Check</ion-button>
   </ion-card>
   <ion-card *ngIf="configuration">
     <ion-card-header>
